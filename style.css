@@ -1,0 +1,43 @@
+h1{
+    font-size: 60px;
+    color: rgb(62, 87, 126);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px; /* Ajusta este valor según necesites */
+}
+
+h3{ /*subtitulo*/
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+p{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caja{
+    display: flex;
+    padding: 20px;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    padding: 20px;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carousel-item img {
+    height: 600px; /* Ajusta la altura según sea necesario */
+    object-fit: cover; /* Esto asegura que la imagen se recorte para llenar el espacio */
+    width: 100%; /* Para que la imagen ocupe todo el ancho del contenedor */
+}
+
+
+
