@@ -1,22 +1,89 @@
-h1{
-    font-size: 60px;
-    color: rgb(62, 87, 126);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 10px; /* Ajusta este valor según necesites */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+header{
+    background-color: khaki;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 5%;
 }
+
+a{
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 20px; /* Elimina el padding por defecto */
+    display: flex; /* Muestra los ítems en fila */
+    font-size: 18px;
+}
+
+nav li {
+    margin-right: 80px; /* Espacio entre ítems */
+    margin-left: 2%;
+}
+
+
+header img{
+    width: 150px;
+}
+
+
+.boton{
+
+    font-size: 18px;
+}
+
+
+.intro{
+    margin-top: 3%;
+}
+
+
+h1{
+    font-size: 400px;
+    color: rgb(62, 87, 126);
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgba(69, 57, 147, 0.886);
+    padding-top: 80px;
+    padding-bottom: 15px;
+    margin-left: 2%;
+}
+
 
 h3{ /*subtitulo*/
     font-size: 30;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0; /* Elimina el margen superior */
+    margin-top: 20px;
+    margin-bottom: 10%;
 }
+
 
 p{
     font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
 }
 
-.caja{
+
+
+
+.caja1{
     display: flex;
     padding: 20px;
     flex-direction: column ;
@@ -24,20 +91,58 @@ p{
     align-items: center;
 }
 
-.info{
+.cajainfo{
     display: flex;
-    padding: 20px;
+    padding: 60px;
     flex-direction: column ;
     justify-content: center;
-    align-items: center;
-
-}
-
-.carousel-item img {
-    height: 600px; /* Ajusta la altura según sea necesario */
-    object-fit: cover; /* Esto asegura que la imagen se recorte para llenar el espacio */
-    width: 100%; /* Para que la imagen ocupe todo el ancho del contenedor */
 }
 
 
 
+.carousel{
+    background-color: rgb(66, 92, 133); ;
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    margin-top: 5%;
+}
+
+
+
+#seccion1{ 
+    background-color: khaki;
+    padding: 16px;
+    margin-top: 5%;
+}
+#seccion2{ 
+    background-color: khaki;
+    padding: 16px;
+    margin-top: 5%;
+}
+#seccion3{ 
+    background-color: khaki;
+    padding: 16px;
+    margin-top: 5%;
+}
+#seccion4{ 
+    background-color: khaki;
+    padding: 16px;
+    margin-top: 5%;
+}
+#seccion5{ 
+    background-color: khaki;
+    padding: 16px;
+    margin-top: 5%;
+}
+
+.video{
+    margin-left: 28%;
+}
+
+footer{
+    text-align: right;
+    margin-top: 20px;
+    background-color: khaki;
+    color: black;
+}
